@@ -1,0 +1,356 @@
+<!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade z-depth-2" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-2" data-slide-to="1"></li>
+        <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <div class="view">
+                <img class="d-block w-100" src="/res/img/fruit/fruit1.jpg" alt="First slide" style="max-height: 400px">
+                <div class="mask rgba-black-light"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive">Light mask</h3>
+                <p>First text</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="/res/img/fruit/fruit2.jpg" alt="Second slide" style="max-height: 400px">
+                <div class="mask rgba-black-strong"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive">Strong mask</h3>
+                <p>Secondary text</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="/res/img/fruit/fruit3.jpg" alt="Third slide" style="max-height: 400px">
+                <div class="mask rgba-black-slight"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive">Slight mask</h3>
+                <p>Third text</p>
+            </div>
+        </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+
+<!-- Company Symbols -->
+<div class="container-fluid pt-3 mt-1 row" style="border: 1px solid #ccc">
+    <!-- left -->
+    <div class="col-12 col-md-5 ml-5 ml-md-0 mb-4 text-left text-md-right">
+        <div class="d-inline-block">
+            <span><i class="fa fa-envelope-o fa-4x"></i>
+            </span>
+        </div>
+        <div class="d-inline-block mt-3 ml-3 mr-4">
+            <p class="mb-0 font-weight-bold" style="font-size: 14px">INDUSTRY UPDATES</p>
+            <a class="font-weight-normal text-danger" style="font-size: 12px">Sign up for our newsletter today</a>
+        </div>
+    </div>
+    <!-- center -->
+    <div class="col-12 col-md-2 ml-5 ml-md-0 border border-default border-top-0 border-bottom-0 mb-4 text-left text-md-center">
+        <p class="mb-0 font-weight-bold" style="font-size: 14px">GENUINE OEM PARTS</p>
+        <a (click) = "onSelect('oemParteners')">
+            <div class="">
+                <img src="/res/img/symbols/icon1.webp" alt="icon1">
+                <img src="/res/img/symbols/icon2.webp" alt="icon1">
+                <img src="/res/img/symbols/icon3.webp" alt="icon1">
+            </div>
+        </a>
+    </div>
+    <!-- right -->
+    <div class="col-12 col-md-5 mb-4 ml-5 ml-md-0">
+        <div class="d-inline-block ml-md-4">
+            <span><i class="fa fa-chrome fa-4x"></i>
+            </span>
+        </div>
+        <div class="d-inline-block mt-3 ml-3 mr-4">
+            <p class="mb-0 font-weight-bold" style="font-size: 14px">ONLINE SUPPORT</p>
+            <a class="font-weight-normal text-danger" style="font-size: 12px">Click here for assistance</a>
+        </div>
+    </div>
+</div>
+<!-- Company Symbols -->
+
+<!-- Device Images - Featured -->
+<div class="container-fluid text-center my-3 border border-top-0">
+    <!-- mark -->
+    <img src="/res/img/symbols/MD.webp" alt="MD mark">
+    <!-- mark -->
+
+    <!-- label featured products label -->
+    <div class="my-2" aria-label="Featured title">
+        <span class="d-inline font-weight-bold" style="font-size: 22px">
+            Featured Product
+        </span>
+    </div>
+    <!-- imgae and label -->
+    <div class="container-fluid row">
+        <div class="col-0 col-xl-1"></div>
+        <!-- 1 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center pb-3">
+            <img src="/res/img/featureDevice/fd1.webp" alt="Featured Device1" style="max-width: 100%;" class="img-thumbnail">
+            <p style="font-size: 23px">Prime Housing Straitener Tool</p>
+            <h3 class="font-weight-normal"><i class="fa fa-usd"></i>199.99</h3>
+            <!-- qty -->
+            <div class="text-center">
+                <h4 class="d-inline align-middle">Qty:</h4>
+                <input type="text" id="qtyFD1" maxlength="12" value="1" title="Qty" class="d-inline qty px-1 py-1 text-center text-danger align-bottom" style="width: 30px;height: 30px;">
+                <div class="d-inline-block align-top ml-1" aria-label="qty-changer">
+                    <i class="fa fa-angle-up fa-md d-block"></i>
+                    <i class="fa fa-angle-down fa-md d-block"></i>
+                </div>
+            </div>
+            <!-- cart button -->
+            <button class="btn btn-outline-secondary btn-sm waves-effect" href="#"><i class="fa fa-shopping-cart text-danger fa-md"></i> Add to cart</button>
+        </div>
+        <!-- 2 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center pb-3">
+            <img src="/res/img/featureDevice/fd5.webp" alt="Featured Device1" style="max-width: 100%;" class="img-thumbnail">
+            <p style="font-size: 23px">LCD & Digitizer Frame Assembly for iPhone 6S (4.7") (Basic) - White (Bulk Pricing Available)</p>
+            <h3 class="font-weight-normal"><i class="fa fa-usd"></i>18.49</h3>
+            <h5 class="font-weight-normal">As low as: <i class="fa fa-usd"></i>14.99</h5>
+            <!-- qty -->
+            <div class="text-center">
+                <h4 class="d-inline align-middle">Qty:</h4>
+                <input type="text" id="qtyFD1" maxlength="12" value="1" title="Qty" class="d-inline qty px-1 py-1 text-center text-danger align-bottom" style="width: 30px;height: 30px;">
+                <div class="d-inline-block align-top ml-1" aria-label="qty-changer">
+                    <i class="fa fa-angle-up fa-md d-block"></i>
+                    <i class="fa fa-angle-down fa-md d-block"></i>
+                </div>
+            </div>
+            <!-- cart button -->
+            <button class="btn btn-outline-secondary btn-sm waves-effect" href="#"><i class="fa fa-shopping-cart text-danger fa-md"></i> Add to cart</button>
+        </div>
+        <!-- 3 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center pb-3">
+            <img src="/res/img/featureDevice/fd2.webp" alt="Featured Device1" style="max-width: 100%;" class="img-thumbnail">
+            <p style="font-size: 23px">Battery for LG V30 (BL-T34) (Genuine OEM)</p>
+            <h3 class="font-weight-normal"><i class="fa fa-usd"></i>21.99</h3>
+            <!-- qty -->
+            <div class="text-center">
+                <h4 class="d-inline align-middle">Qty:</h4>
+                <input type="text" id="qtyFD1" maxlength="12" value="1" title="Qty" class="d-inline qty px-1 py-1 text-center text-danger align-bottom" style="width: 30px;height: 30px;">
+                <div class="d-inline-block align-top ml-1" aria-label="qty-changer">
+                    <i class="fa fa-angle-up fa-md d-block"></i>
+                    <i class="fa fa-angle-down fa-md d-block"></i>
+                </div>
+            </div>
+            <!-- cart button -->
+            <button class="btn btn-outline-secondary btn-sm waves-effect" href="#"><i class="fa fa-shopping-cart text-danger fa-md"></i> Add to cart</button>
+        </div>
+        <!-- 4 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center pb-3">
+            <img src="/res/img/featureDevice/fd3.webp" alt="Featured Device1" style="max-width: 100%;" class="img-thumbnail">
+            <p style="font-size: 23px">Battery (HG40) for Motorola Moto G5 Plus (XT1687) (Authorized OEM)</p>
+            <h3 class="font-weight-normal"><i class="fa fa-usd"></i>13.99</h3>
+            <!-- qty -->
+            <div class="text-center">
+                <h4 class="d-inline align-middle">Qty:</h4>
+                <input type="text" id="qtyFD1" maxlength="12" value="1" title="Qty" class="d-inline qty px-1 py-1 text-center text-danger align-bottom" style="width: 30px;height: 30px;">
+                <div class="d-inline-block align-top ml-1" aria-label="qty-changer">
+                    <i class="fa fa-angle-up fa-md d-block"></i>
+                    <i class="fa fa-angle-down fa-md d-block"></i>
+                </div>
+            </div>
+            <!-- cart button -->
+            <button class="btn btn-outline-secondary btn-sm waves-effect" href="#"><i class="fa fa-shopping-cart text-danger fa-md"></i> Add to cart</button>
+        </div>
+        <!-- 5 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center pb-3">
+            <img src="/res/img/featureDevice/fd4.webp" alt="Featured Device1" style="max-width: 100%;" class="img-thumbnail">
+            <p style="font-size: 23px">LCD & Digitizer Frame Assembly for iPhone 7 (4.7") (Select) - Black (Bulk Pricing Available)</p>
+            <h3 class="font-weight-normal"><i class="fa fa-usd"></i>37.99</h3>
+            <h5 class="font-weight-normal">As low as: <i class="fa fa-usd"></i>34.99</h5>
+            <!-- qty -->
+            <div class="text-center">
+                <h4 class="d-inline align-middle">Qty:</h4>
+                <input type="text" id="qtyFD1" maxlength="12" value="1" title="Qty" class="d-inline qty px-1 py-1 text-center text-danger align-bottom" style="width: 30px;height: 30px;">
+                <div class="d-inline-block align-top ml-1" aria-label="qty-changer">
+                    <i class="fa fa-angle-up fa-md d-block"></i>
+                    <i class="fa fa-angle-down fa-md d-block"></i>
+                </div>
+            </div>
+            <!-- cart button -->
+            <button class="btn btn-outline-secondary btn-sm waves-effect" href="#"><i class="fa fa-shopping-cart text-danger fa-md"></i> Add to cart</button>
+        </div>
+        
+        <div class="col-0 col-xl-1"></div>
+    </div>
+</div>
+<!-- Device Images - Featured -->
+
+<!-- Device Images - New -->
+<div class="container-fluid text-center my-3 border border-top-0">
+    <!-- label new products label -->
+    <div class="my-2" aria-label="New title">
+        <span class="d-inline font-weight-bold" style="font-size: 22px">
+            New Product
+        </span>
+    </div>
+    <!-- imgae and label -->
+    <div class="container-fluid row">
+        <div class="col-0 col-xl-1"></div>
+        <!-- 1 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center pb-3">
+            <img src="/res/img/newDevice/nd1.webp" alt="Featured Device1" style="max-width: 100%;" class="img-thumbnail">
+            <p style="font-size: 23px">Ear Speaker for Motorola Moto E5 Plus / Moto G6 Play (XT1924 / XT1922) (Authorized OEM)</p>
+            <h3 class="font-weight-normal"><i class="fa fa-usd"></i>4.99</h3>
+            <!-- qty -->
+            <div class="text-center">
+                <h4 class="d-inline align-middle">Qty:</h4>
+                <input type="text" id="qtyFD1" maxlength="12" value="1" title="Qty" class="d-inline qty px-1 py-1 text-center text-danger align-bottom" style="width: 30px;height: 30px;">
+                <div class="d-inline-block align-top ml-1" aria-label="qty-changer">
+                    <i class="fa fa-angle-up fa-md d-block"></i>
+                    <i class="fa fa-angle-down fa-md d-block"></i>
+                </div>
+            </div>
+            <!-- cart button -->
+            <button class="btn btn-outline-secondary btn-sm waves-effect" href="#"><i class="fa fa-shopping-cart text-danger fa-md"></i> Add to cart</button>
+        </div>
+        <!-- 2 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center pb-3">
+            <img src="/res/img/newDevice/nd2.webp" alt="Featured Device1" style="max-width: 100%;" class="img-thumbnail">
+            <p style="font-size: 23px">LCD & Digitizer for Blackberry KEY2 - Black</p>
+            <h3 class="font-weight-normal"><i class="fa fa-usd"></i>74.49</h3>
+            <h5 class="font-weight-normal">As low as: <i class="fa fa-usd"></i>14.99</h5>
+            <!-- qty -->
+            <div class="text-center">
+                <h4 class="d-inline align-middle">Qty:</h4>
+                <input type="text" id="qtyFD1" maxlength="12" value="1" title="Qty" class="d-inline qty px-1 py-1 text-center text-danger align-bottom" style="width: 30px;height: 30px;">
+                <div class="d-inline-block align-top ml-1" aria-label="qty-changer">
+                    <i class="fa fa-angle-up fa-md d-block"></i>
+                    <i class="fa fa-angle-down fa-md d-block"></i>
+                </div>
+            </div>
+            <!-- cart button -->
+            <button class="btn btn-outline-secondary btn-sm waves-effect" href="#"><i class="fa fa-shopping-cart text-danger fa-md"></i> Add to cart</button>
+        </div>
+        <!-- 3 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center pb-3">
+            <img src="/res/img/newDevice/nd3.webp" alt="Featured Device1" style="max-width: 100%;" class="img-thumbnail">
+            <p style="font-size: 23px">Battery for iPhone X</p>
+            <h3 class="font-weight-normal"><i class="fa fa-usd"></i>24.99</h3>
+            <!-- qty -->
+            <div class="text-center">
+                <h4 class="d-inline align-middle">Qty:</h4>
+                <input type="text" id="qtyFD1" maxlength="12" value="1" title="Qty" class="d-inline qty px-1 py-1 text-center text-danger align-bottom" style="width: 30px;height: 30px;">
+                <div class="d-inline-block align-top ml-1" aria-label="qty-changer">
+                    <i class="fa fa-angle-up fa-md d-block"></i>
+                    <i class="fa fa-angle-down fa-md d-block"></i>
+                </div>
+            </div>
+            <!-- cart button -->
+            <button class="btn btn-outline-secondary btn-sm waves-effect" href="#"><i class="fa fa-shopping-cart text-danger fa-md"></i> Add to cart</button>
+        </div>
+        <!-- 4 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center pb-3">
+            <img src="/res/img/newDevice/nd4.webp" alt="Featured Device1" style="max-width: 100%;" class="img-thumbnail">
+            <p style="font-size: 23px">Ear Speaker with Sensor Flex Cable for iPhone X</p>
+            <h3 class="font-weight-normal"><i class="fa fa-usd"></i>57.99</h3>
+            <!-- qty -->
+            <div class="text-center">
+                <h4 class="d-inline align-middle">Qty:</h4>
+                <input type="text" id="qtyFD1" maxlength="12" value="1" title="Qty" class="d-inline qty px-1 py-1 text-center text-danger align-bottom" style="width: 30px;height: 30px;">
+                <div class="d-inline-block align-top ml-1" aria-label="qty-changer">
+                    <i class="fa fa-angle-up fa-md d-block"></i>
+                    <i class="fa fa-angle-down fa-md d-block"></i>
+                </div>
+            </div>
+            <!-- cart button -->
+            <button class="btn btn-outline-secondary btn-sm waves-effect" href="#"><i class="fa fa-shopping-cart text-danger fa-md"></i> Add to cart</button>
+        </div>
+        <!-- 5 -->
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 text-center pb-3">
+            <img src="/res/img/newDevice/nd5.webp" alt="Featured Device1" style="max-width: 100%;" class="img-thumbnail">
+            <p style="font-size: 23px">Front Camera for LG G7 ThinQ (Genuine OEM)</p>
+            <h3 class="font-weight-normal"><i class="fa fa-usd"></i>22.99</h3>
+            <h5 class="font-weight-normal">As low as: <i class="fa fa-usd"></i>34.99</h5>
+            <!-- qty -->
+            <div class="text-center">
+                <h4 class="d-inline align-middle">Qty:</h4>
+                <input type="text" id="qtyFD1" maxlength="12" value="1" title="Qty" class="d-inline qty px-1 py-1 text-center text-danger align-bottom" style="width: 30px;height: 30px;">
+                <div class="d-inline-block align-top ml-1" aria-label="qty-changer">
+                    <i class="fa fa-angle-up fa-md d-block"></i>
+                    <i class="fa fa-angle-down fa-md d-block"></i>
+                </div>
+            </div>
+            <!-- cart button -->
+            <button class="btn btn-outline-secondary btn-sm waves-effect" href="#"><i class="fa fa-shopping-cart text-danger fa-md"></i> Add to cart</button>
+        </div>
+        
+        <div class="col-0 col-xl-1"></div>
+    </div>
+</div>
+<!-- Device Images - New -->
+
+<!-- Imgae Link Scope -->
+<div class="container-fluid d-inline-block py-4" style="background-color: #eee">
+    <!-- Link Image -->
+    <div class="container my-4">
+        <a href="#"><img src="/res/img/imgLink/imgLink1.webp" alt="Image Link 1" class="col-12 col-lg-6 px-2 py-2"></a>
+        <a href="#"><img src="/res/img/imgLink/imgLink2.webp" alt="Image Link 1" class="col-12 col-lg-6 px-2 py-2"></a>
+    </div>
+    <div class="container text-center my-4">
+        <h5>Mobile Defenders provides wholesale cell phone replacement parts to individuals and organizations around the world. Providing unmatched quality, fast fulfillment and shipping from multiple distribution centers, and an industry leading support and knowledge base, Mobile Defenders is the leader in the wholesale cell phone and mobile device replacement parts industry.</h5>
+    </div>
+</div>
+<!-- Imgae Link Scope -->
+
+<!-- Multiple Carousel: Company marks -->
+<div class="container py-4 my-4 text-center">
+    <!-- Head text -->
+    <p class="font-weight-bold" style="font-size: 20px">MOBILE DEFENDERS IN THE PRESS</p>
+    <!-- Multi-Carousel -->
+    <div id="multi-company-item" class="carousel slide carousel-multi-item px-4" data-ride="carousel">
+        <!-- Controls -->
+        <div class="controls-top" style="position:relative; float: right; top: -40px">
+            <a href="#multi-company-item" class="btn-floating" data-slide="prev"><i class="fa fa-chevron-left fa-lg"></i></a>&nbsp;
+            <a href="#multi-company-item" class="btn-floating" data-slide="next"><i class="fa fa-chevron-right fa-lg"></i></a>
+        </div>
+        <!-- Indicators -->
+        <!-- <ol class="carousel-indicators">
+            <li data-target="#multi-company-item" data-slide="0" class="active"></li>
+            <li data-target="#multi-company-item" data-slide="1" class="active"></li>
+            <li data-target="#multi-company-item" data-slide="2" class="active"></li>
+        </ol> -->
+        <!-- Slides -->
+        <div class="carousel-inner" role="listbox">
+            <!-- acive slide -->
+            <div class="carousel-item active px-4">
+                <div *ngFor="let companyImage of companyImages1; let i = index;" class="d-inline-block col-3">
+                    <a href="#"><img class="card-img-top" [src]="companyImage" alt="Card image cap"></a>
+                </div>
+            </div>
+            <!-- disactive slide -->
+            <div class="carousel-item px-4" *ngFor = "let companyImages of companyImagesGroup">
+                <div *ngFor="let companyImage of companyImages; let i = index;" class="d-inline-block col-3">
+                    <a href="#"><img class="card-img-top" [src]="companyImage" alt="Card image cap"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Multiple Carousel: Company marks -->
